@@ -1,69 +1,110 @@
 {
-  "themes": ["Produit et stratégie", "Design et UX", "Facilitation", "Prototypage", "Animation", "Illustration et schémas", "Présentations"],
+  "themes": [
+    "Produit et stratégie",
+    "Design et UX",
+    "Design de l’IA",
+    "Facilitation",
+    "Prototypage",
+    "Animation",
+    "Illustration et schémas",
+    "Présentations"
+  ],
   "skills": [
     {
       "id": "socle",
-      "themes": ["Produit et stratégie"],
+      "themes": [
+        "Produit et stratégie"
+      ],
       "summary": "Méthode en cinq étapes pour démarrer un produit digital : structurer, outiller, construire, livrer, élargir."
     },
     {
       "id": "direction-design",
-      "themes": ["Produit et stratégie", "Design et UX"],
+      "themes": [
+        "Produit et stratégie",
+        "Design et UX"
+      ],
       "summary": "Feuille de route de conception, cadence d'instances et argumentaires pour peser dans un arbitrage."
     },
     {
       "id": "ux-et-design-thinking",
-      "themes": ["Design et UX"],
+      "themes": [
+        "Design et UX"
+      ],
       "summary": "Regard de méthode sur un parcours ou un écran : job à accomplir, faits d'usage, réutilisation de composants."
     },
     {
       "id": "facilitation-ateliers",
-      "themes": ["Facilitation"],
+      "themes": [
+        "Facilitation"
+      ],
       "summary": "Déroulé d'atelier ou de réunion : format, participants, durée et livrable."
     },
     {
       "id": "prototype-anime",
-      "themes": ["Prototypage", "Animation"],
+      "themes": [
+        "Prototypage",
+        "Animation"
+      ],
       "summary": "Un parcours d'écrans joué comme un film, sur mobile et desktop : doigt ou curseur, saisie, caméra. Démos en direct.",
       "repo": "https://github.com/marcus-clay/prototype-anime-skill",
       "site": "https://marcus-clay.github.io/prototype-anime-skill/"
     },
     {
       "id": "ship-to-show",
-      "themes": ["Prototypage"],
+      "themes": [
+        "Prototypage"
+      ],
       "summary": "Transformer un prototype en étude de cas publiée, en sept phases, avec vidéos et contenu bilingue."
     },
     {
       "id": "drawing-animated-diagrams",
-      "themes": ["Animation", "Illustration et schémas"],
+      "themes": [
+        "Animation",
+        "Illustration et schémas"
+      ],
       "summary": "Diagrammes SVG pour React qui se dessinent à l'entrée dans l'écran, en encre et en gris.",
-      "dependsOn": ["diagram-storytelling", "emil-design-eng"]
+      "dependsOn": [
+        "diagram-storytelling",
+        "emil-design-eng"
+      ]
     },
     {
-      "id": "resource-illustrations",
-      "themes": ["Illustration et schémas"],
-      "summary": "Vignettes de cartes de ressources : un fragment de la chose, des annotations, une touche d'accent."
+      "id": "card-illustrations",
+      "themes": [
+        "Illustration et schémas"
+      ],
+      "summary": "Illustrations de cartes (guides, templates, articles) : un fragment de la chose, des annotations, une touche d'accent."
     },
     {
       "id": "marker-sketch",
-      "themes": ["Illustration et schémas"],
+      "themes": [
+        "Illustration et schémas"
+      ],
       "summary": "Croquis au feutre sur papier à points, en SVG, avec quatre modes dont un mode interactif."
     },
     {
       "id": "diagram-storytelling",
-      "themes": ["Illustration et schémas", "Présentations"],
+      "themes": [
+        "Illustration et schémas",
+        "Présentations"
+      ],
       "summary": "Zonings, wireframes, parcours et schémas minimalistes pour slides : une idée par diagramme."
     },
     {
       "id": "slides",
-      "themes": ["Présentations"],
+      "themes": [
+        "Présentations"
+      ],
       "summary": "Tokens de design, quinze mises en page et conventions narratives pour des présentations."
     }
   ],
   "external": [
     {
       "id": "emil-design-eng",
-      "themes": ["Animation", "Design et UX"],
+      "themes": [
+        "Animation",
+        "Design et UX"
+      ],
       "title": "Emil Design Eng",
       "summary": "La philosophie de finition d'interface et de choix d'animation d'Emil Kowalski.",
       "author": "Emil Kowalski",
@@ -72,7 +113,10 @@
     },
     {
       "id": "impeccable",
-      "themes": ["Design et UX", "Animation"],
+      "themes": [
+        "Design et UX",
+        "Animation"
+      ],
       "title": "Impeccable",
       "summary": "Une skill et vingt-quatre commandes (polish, audit, critique, animate...) pour guider et contrôler le design d'une interface.",
       "author": "Paul Bakaus",
@@ -83,7 +127,9 @@
     },
     {
       "id": "transitions-dev",
-      "themes": ["Animation"],
+      "themes": [
+        "Animation"
+      ],
       "title": "Transitions dev",
       "summary": "Une collection de transitions CSS prêtes à l'emploi : modales, menus, badges, panneaux, onglets.",
       "author": "Jakub Antalik",
@@ -94,7 +140,9 @@
     },
     {
       "id": "transitions-polish",
-      "themes": ["Animation"],
+      "themes": [
+        "Animation"
+      ],
       "title": "Transitions polish",
       "summary": "Affiner des animations existantes selon une échelle de durées, de distances, de flous et de courbes.",
       "author": "Jakub Antalik",
@@ -103,14 +151,303 @@
     },
     {
       "id": "figma-console-mcp",
-      "themes": ["Prototypage", "Design et UX"],
+      "themes": [
+        "Prototypage",
+        "Design et UX"
+      ],
       "title": "Figma Console MCP",
       "summary": "Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*).",
       "author": "TJ Pitre, Southleft",
       "repo": "https://github.com/southleft/figma-console-mcp",
       "site": "https://docs.figma-console-mcp.southleft.com",
       "license": "MIT",
-      "note": "Nécessite un jeton d'accès Figma. Non affilié à Figma."
+      "note": "Nécessite un jeton d'accès Figma. Non affilié à Figma.",
+      "names": [
+        "figjam-create-content",
+        "figma-analyze-component-set",
+        "figma-annotations",
+        "figma-arrange-component-set",
+        "figma-audit-accessibility",
+        "figma-blame-node",
+        "figma-check-design-parity",
+        "figma-code-connect",
+        "figma-comments",
+        "figma-component-properties",
+        "figma-create-new-file",
+        "figma-deep-component",
+        "figma-design-system-inventory",
+        "figma-export-tokens",
+        "figma-generate-changelog",
+        "figma-generate-component-doc",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-import-tokens",
+        "figma-library-variables",
+        "figma-lint-design",
+        "figma-manage-variables",
+        "figma-scan-code-accessibility",
+        "figma-setup-design-tokens",
+        "figma-slides",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-slides",
+        "figma-version-history"
+      ]
+    },
+    {
+      "id": "designer-skills",
+      "themes": [
+        "Design et UX"
+      ],
+      "title": "designer-skills",
+      "author": "Owl-Listener",
+      "repo": "https://github.com/Owl-Listener/designer-skills",
+      "license": "MIT",
+      "summary": "Une collection de skills de designer : recherche, parcours, personas, ateliers, critique, systèmes de design et passation.",
+      "names": [
+        "a-b-test-design",
+        "accessibility-audit",
+        "accessibility-test-plan",
+        "aesthetic-usability",
+        "affinity-diagram",
+        "animation-principles",
+        "card-sort-analysis",
+        "case-study",
+        "click-test-plan",
+        "color-system",
+        "competitive-analysis",
+        "component-spec",
+        "content-strategy",
+        "critique-brand-consistency",
+        "critique-composition",
+        "critique-typography",
+        "critique-visual-hierarchy",
+        "dark-mode-design",
+        "data-visualization",
+        "design-brief",
+        "design-critique",
+        "design-debt-audit",
+        "design-impact-reporting",
+        "design-negotiation",
+        "design-principles",
+        "design-qa-checklist",
+        "design-rationale",
+        "design-review-process",
+        "design-sprint-plan",
+        "design-system-adoption",
+        "design-system-governance",
+        "design-token",
+        "design-token-audit",
+        "diary-study-plan",
+        "documentation-template",
+        "doherty-threshold",
+        "empathy-map",
+        "error-handling-ux",
+        "experience-map",
+        "feedback-patterns",
+        "fitts-law",
+        "form-design",
+        "gesture-patterns",
+        "handoff-spec",
+        "heuristic-evaluation",
+        "hicks-law",
+        "icon-system",
+        "illustration-style",
+        "information-architecture",
+        "interview-script",
+        "jobs-to-be-done",
+        "journey-map",
+        "law-of-common-region",
+        "law-of-proximity",
+        "layout-grid",
+        "loading-states",
+        "localization-design",
+        "metrics-definition",
+        "micro-interaction-spec",
+        "millers-law",
+        "motion-system",
+        "naming-convention",
+        "navigation-patterns",
+        "north-star-vision",
+        "onboarding-design",
+        "opportunity-framework",
+        "pattern-library",
+        "presentation-deck",
+        "prototype-strategy",
+        "readable-measure",
+        "research-repository",
+        "responsive-design",
+        "search-ux",
+        "service-blueprint",
+        "spacing-system",
+        "stakeholder-alignment",
+        "state-machine",
+        "summarize-interview",
+        "survey-design",
+        "team-workflow",
+        "test-scenario",
+        "theming-system",
+        "typography-scale",
+        "usability-test-plan",
+        "user-flow-diagram",
+        "user-persona",
+        "ux-writing",
+        "version-control-strategy",
+        "visual-hierarchy",
+        "von-restorff-effect",
+        "wireframe-spec"
+      ],
+      "note": "Sélection de cette collection. La liste complète et la procédure d’installation sont dans son dépôt."
+    },
+    {
+      "id": "ai-design-skills",
+      "themes": [
+        "Design de l’IA"
+      ],
+      "title": "ai-design-skills",
+      "author": "Owl-Listener",
+      "repo": "https://github.com/Owl-Listener/ai-design-skills",
+      "license": "MIT",
+      "summary": "Concevoir des produits et des agents d’IA : confiance, transparence, escalade, évaluation, gestion du contexte.",
+      "names": [
+        "agent-role-design",
+        "behavioral-consistency",
+        "bias-detection-design",
+        "chain-of-thought-design",
+        "comparative-evaluation",
+        "consent-and-agency",
+        "constraint-specification",
+        "context-engineering",
+        "context-window-design",
+        "conversation-patterns",
+        "cultural-adaptation",
+        "domain-voice",
+        "emotional-design",
+        "error-personality",
+        "escalation-design",
+        "failure-recovery",
+        "failure-taxonomy",
+        "feedback-loops",
+        "few-shot-patterns",
+        "frustration-detection",
+        "generative-ui",
+        "guardrail-design",
+        "handoff-protocols",
+        "harm-anticipation",
+        "heuristic-evaluation-ai",
+        "human-in-the-loop",
+        "longitudinal-measurement",
+        "mixed-initiative-flow",
+        "multimodal-orchestration",
+        "observability-design",
+        "output-quality-rubrics",
+        "persona-architecture",
+        "progressive-disclosure",
+        "prompt-versioning",
+        "state-management",
+        "system-prompt-structure",
+        "task-decomposition",
+        "task-success-metrics",
+        "template-design",
+        "tone-calibration",
+        "transparency-patterns",
+        "trust-calibration",
+        "user-satisfaction-signals",
+        "value-specification"
+      ],
+      "note": "Sélection de cette collection. La liste complète et la procédure d’installation sont dans son dépôt."
+    },
+    {
+      "id": "layers-skills",
+      "themes": [
+        "Design et UX",
+        "Produit et stratégie"
+      ],
+      "title": "layers-skills",
+      "author": "Jamie Mill",
+      "repo": "https://github.com/jamiemill/layers-skills",
+      "license": "MIT",
+      "summary": "Layers of Product Design : sept couches, du comportement observé jusqu’aux décisions de surface.",
+      "names": [
+        "layers-conceptual-model",
+        "layers-domain",
+        "layers-interaction-flow",
+        "layers-intro",
+        "layers-observed-behaviour",
+        "layers-orient",
+        "layers-product-strategy",
+        "layers-surface",
+        "layers-user-needs"
+      ],
+      "note": "Commencer par layers-intro, qui pose le cadre des autres."
+    },
+    {
+      "id": "ui-skills",
+      "themes": [
+        "Design et UX",
+        "Animation"
+      ],
+      "title": "ui-skills",
+      "author": "ibelick",
+      "repo": "https://github.com/ibelick/ui-skills",
+      "license": "MIT",
+      "summary": "Contrôles et corrections d’interface : base visuelle, accessibilité, métadonnées, performance des animations.",
+      "names": [
+        "baseline-ui",
+        "fixing-accessibility",
+        "fixing-metadata",
+        "fixing-motion-performance"
+      ],
+      "note": "Voir son dépôt pour l’installation."
+    },
+    {
+      "id": "taste-skill",
+      "themes": [
+        "Design et UX"
+      ],
+      "title": "taste-skill",
+      "author": "Leonxlnx",
+      "repo": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT",
+      "summary": "Une famille de skills pour éviter l’aspect générique d’une interface générée : goût, espace, mouvement, variantes par modèle.",
+      "note": "Voir son dépôt pour la liste des variantes et l’installation."
+    },
+    {
+      "id": "anthropic-skills",
+      "themes": [
+        "Design et UX",
+        "Illustration et schémas"
+      ],
+      "title": "Skills d’Anthropic",
+      "author": "Anthropic",
+      "repo": "https://github.com/anthropics/skills",
+      "summary": "Le dépôt public de skills d’Anthropic, dont frontend-design et canvas-design.",
+      "names": [
+        "canvas-design",
+        "frontend-design"
+      ],
+      "note": "Chaque skill y garde sa propre licence : voir son dossier."
+    },
+    {
+      "id": "karpathy-guidelines",
+      "themes": [
+        "Produit et stratégie"
+      ],
+      "title": "Karpathy guidelines",
+      "author": "forrestchang",
+      "repo": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "summary": "Des règles de comportement pour réduire les erreurs courantes d’un modèle qui écrit du code : réfléchir avant d’écrire, rester simple, changer peu."
+    },
+    {
+      "id": "find-skills",
+      "themes": [
+        "Produit et stratégie"
+      ],
+      "title": "find-skills",
+      "author": "Vercel Labs",
+      "repo": "https://github.com/vercel-labs/skills",
+      "summary": "Trouver et installer des skills depuis l’écosystème ouvert des skills pour agents."
     }
   ]
 }

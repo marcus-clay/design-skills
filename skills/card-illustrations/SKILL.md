@@ -1,9 +1,9 @@
 ---
-name: resource-illustrations
-description: Use when asked for an illustration, a thumbnail or a card picture for a resource of a site or a library (guide, template, deck, article), when a set of cards needs one consistent treatment, or when product screenshots are shared as a reference for card illustrations. Two modes, "noir et blanc" (ink accent) or "accent couleur" (ten-hue palette), chosen by the argument or the wording of the request.
+name: card-illustrations
+description: Use when asked for an illustration, a thumbnail or a card picture for a card in a grid of content, such as a library of resources (guide, template, deck, article), when a set of cards needs one consistent treatment, or when product screenshots are shared as a reference for card illustrations. Two modes, "noir et blanc" (ink accent) or "accent couleur" (ten-hue palette), chosen by the argument or the wording of the request.
 ---
 
-# Illustrations de cartes de ressources
+# Illustrations de cartes
 
 ## L'idée
 
@@ -12,6 +12,11 @@ Une carte montre la chose elle-même, simplifiée à ce dont le lecteur a besoin
 ## Le vocabulaire
 
 Chaque scène se compose de trois à cinq de ces pièces, jamais toutes.
+
+Références visuelles, à regarder avant de dessiner une scène :
+- `references/vocabulaire.png` (et `.svg`) : les douze pièces, chacune isolée sur son panneau, avec sa règle en une ligne.
+- `references/exemple-noir-et-blanc.png` et `references/exemple-accent-couleur.png` (et `.svg`) : la même scène complète dans les deux modes. Seule la couleur de l'élément accentué change.
+- `references/accent-palette.png` et `.json` : les dix teintes de la palette, avec leur version douce.
 
 | Pièce | Ce que c'est |
 |---|---|
@@ -34,8 +39,8 @@ La skill se lance dans l'un de deux modes, qui ne changent qu'une chose : la cou
 
 | Mode | Comment l'appeler | L'élément accentué |
 |---|---|---|
-| **Noir et blanc** | `/resource-illustrations noir et blanc`, « en noir et blanc », « monochrome », « sans couleur » | encre `gray-900` pleine (texte blanc dessus) |
-| **Accent couleur** | `/resource-illustrations accent`, « avec couleur d'accent », « en couleur » | une teinte de la palette, tirée d'un identifiant stable |
+| **Noir et blanc** | `/card-illustrations noir et blanc`, « en noir et blanc », « monochrome », « sans couleur » | encre `gray-900` pleine (texte blanc dessus) |
+| **Accent couleur** | `/card-illustrations accent`, « avec couleur d'accent », « en couleur » | une teinte de la palette, tirée d'un identifiant stable |
 
 Choix du mode : l'argument ou les mots de la demande d'abord. Sans indication, reprendre le mode des scènes déjà en ligne pour que la bibliothèque reste homogène ; s'il n'y en a pas, noir et blanc. Ne jamais mélanger les deux modes dans une même grille : changer de mode, c'est repasser toutes les cartes visibles ensemble. Dans le code, le mode est une seule constante (`ACCENT_MODE: 'ink' | 'color'`) lue par toutes les scènes, pour basculer la bibliothèque en une ligne.
 

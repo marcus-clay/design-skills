@@ -1,12 +1,11 @@
 const { chromium } = require('playwright')
 const S = process.argv[2]
+// One entry per diagram: a name for the capture, and the page that shows it (the dev server serves it on localhost:3000).
+// Usage: NODE_PATH=<project>/node_modules node shoot-diagrams.cjs <output folder>
 const pages = [
-  ['scoping', '/fr/ressources/cadrage-de-conception'],
-  ['sync', '/fr/ressources/synchro-po-design'],
-  ['teardown', '/fr/ressources/atelier-design-teardown'],
-  ['checklist', '/fr/ressources/checklist-conception-fonctionnalite'],
-  ['slicing', '/en/ressources/ui-slicing'],
-  ['status', '/en/ressources/figma-file-status'],
+  ['scoping', '/diagrams/scoping'],
+  ['sync', '/diagrams/sync'],
+  ['checklist', '/diagrams/checklist'],
 ]
 ;(async () => { const browser = await chromium.launch()
 for (const [vw, suffix] of [[1280, ''], [390, '-m']]) {

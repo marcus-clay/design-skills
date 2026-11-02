@@ -100,6 +100,8 @@ entre les éléments de contact. Numéro de slide aligné à droite.
 
 ## 3. Catalogue de layouts
 
+Planche de référence : `references/mises-en-page.png` (et `.svg`) montre les quinze mises en page côte à côte, numérotées comme ci-dessous. La regarder avant de choisir une mise en page, puis lire sa fiche.
+
 ### Règle universelle
 
 Une idée par slide. Espace blanc généreux. Un élément dominant.

@@ -47,7 +47,7 @@ const rows = (theme) => {
     })
   const ext = catalog.external
     .filter((s) => s.themes.includes(theme))
-    .map((s) => `| ${s.title} | ${s.summary} | ${link(`recommandée, par ${s.author}`, s.site ?? s.repo)} |`)
+    .map((s) => `| ${s.title} | ${s.summary}${s.names ? ` (${s.names.length} skills)` : ''} | ${link(`recommandée, par ${s.author}`, s.site ?? s.repo)} |`)
   return [...own, ...ext]
 }
 const index = catalog.themes
@@ -72,6 +72,7 @@ const externalBlock = catalog.external
   .map((s) => {
     const lines = [`### ${s.title}`, '', `Par ${s.author}${s.license ? `, licence ${s.license}` : ''}. ${[s.repo && link('Dépôt', s.repo), s.site && link('Site', s.site)].filter(Boolean).join(' · ')}`]
     if (s.install) lines.push('', '```bash', s.install, '```')
+    if (s.names?.length) lines.push('', `<details><summary>${s.names.length} skills de cette collection retenues ici</summary>`, '', s.names.map((n) => `\`${n}\``).join(', '), '', '</details>')
     if (s.note) lines.push('', s.note)
     return lines.join('\n')
   })
@@ -88,6 +89,7 @@ console.log(`Index à jour : ${local.length} skills dans ce dépôt, ${catalog.s
 if (process.argv.includes('--zip')) {
   const dist = path.join(root, 'dist')
   fs.mkdirSync(dist, { recursive: true })
+  for (const f of fs.readdirSync(dist)) if (f.endsWith(".zip")) fs.unlinkSync(path.join(dist, f))
   for (const s of local) {
     const out = path.join(dist, `${s.id}.zip`)
     if (fs.existsSync(out)) fs.unlinkSync(out)

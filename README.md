@@ -15,6 +15,9 @@ Ce dépôt réunit deux familles :
 |---|---|---|
 | `socle` | Méthode en cinq étapes pour démarrer un produit digital : structurer, outiller, construire, livrer, élargir. | [dossier](skills/socle) |
 | `direction-design` | Feuille de route de conception, cadence d'instances et argumentaires pour peser dans un arbitrage. | [dossier](skills/direction-design) |
+| layers-skills | Layers of Product Design : sept couches, du comportement observé jusqu’aux décisions de surface. (9 skills) | [recommandée, par Jamie Mill](https://github.com/jamiemill/layers-skills) |
+| Karpathy guidelines | Des règles de comportement pour réduire les erreurs courantes d’un modèle qui écrit du code : réfléchir avant d’écrire, rester simple, changer peu. | [recommandée, par forrestchang](https://github.com/forrestchang/andrej-karpathy-skills) |
+| find-skills | Trouver et installer des skills depuis l’écosystème ouvert des skills pour agents. | [recommandée, par Vercel Labs](https://github.com/vercel-labs/skills) |
 
 ### Design et UX
 
@@ -24,7 +27,18 @@ Ce dépôt réunit deux familles :
 | `ux-et-design-thinking` | Regard de méthode sur un parcours ou un écran : job à accomplir, faits d'usage, réutilisation de composants. | [dossier](skills/ux-et-design-thinking) |
 | Emil Design Eng | La philosophie de finition d'interface et de choix d'animation d'Emil Kowalski. | [recommandée, par Emil Kowalski](https://github.com/emilkowalski/skills) |
 | Impeccable | Une skill et vingt-quatre commandes (polish, audit, critique, animate...) pour guider et contrôler le design d'une interface. | [recommandée, par Paul Bakaus](https://impeccable.style) |
-| Figma Console MCP | Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*). | [recommandée, par TJ Pitre, Southleft](https://docs.figma-console-mcp.southleft.com) |
+| Figma Console MCP | Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*). (30 skills) | [recommandée, par TJ Pitre, Southleft](https://docs.figma-console-mcp.southleft.com) |
+| designer-skills | Une collection de skills de designer : recherche, parcours, personas, ateliers, critique, systèmes de design et passation. (91 skills) | [recommandée, par Owl-Listener](https://github.com/Owl-Listener/designer-skills) |
+| layers-skills | Layers of Product Design : sept couches, du comportement observé jusqu’aux décisions de surface. (9 skills) | [recommandée, par Jamie Mill](https://github.com/jamiemill/layers-skills) |
+| ui-skills | Contrôles et corrections d’interface : base visuelle, accessibilité, métadonnées, performance des animations. (4 skills) | [recommandée, par ibelick](https://github.com/ibelick/ui-skills) |
+| taste-skill | Une famille de skills pour éviter l’aspect générique d’une interface générée : goût, espace, mouvement, variantes par modèle. | [recommandée, par Leonxlnx](https://github.com/Leonxlnx/taste-skill) |
+| Skills d’Anthropic | Le dépôt public de skills d’Anthropic, dont frontend-design et canvas-design. (2 skills) | [recommandée, par Anthropic](https://github.com/anthropics/skills) |
+
+### Design de l’IA
+
+| Skill | Ce qu'elle fait | Où |
+|---|---|---|
+| ai-design-skills | Concevoir des produits et des agents d’IA : confiance, transparence, escalade, évaluation, gestion du contexte. (44 skills) | [recommandée, par Owl-Listener](https://github.com/Owl-Listener/ai-design-skills) |
 
 ### Facilitation
 
@@ -38,7 +52,7 @@ Ce dépôt réunit deux familles :
 |---|---|---|
 | `prototype-anime` | Un parcours d'écrans joué comme un film, sur mobile et desktop : doigt ou curseur, saisie, caméra. Démos en direct. | [dépôt dédié](https://github.com/marcus-clay/prototype-anime-skill), [démos](https://marcus-clay.github.io/prototype-anime-skill/) |
 | `ship-to-show` | Transformer un prototype en étude de cas publiée, en sept phases, avec vidéos et contenu bilingue. | [dossier](skills/ship-to-show) |
-| Figma Console MCP | Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*). | [recommandée, par TJ Pitre, Southleft](https://docs.figma-console-mcp.southleft.com) |
+| Figma Console MCP | Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*). (30 skills) | [recommandée, par TJ Pitre, Southleft](https://docs.figma-console-mcp.southleft.com) |
 
 ### Animation
 
@@ -50,15 +64,17 @@ Ce dépôt réunit deux familles :
 | Impeccable | Une skill et vingt-quatre commandes (polish, audit, critique, animate...) pour guider et contrôler le design d'une interface. | [recommandée, par Paul Bakaus](https://impeccable.style) |
 | Transitions dev | Une collection de transitions CSS prêtes à l'emploi : modales, menus, badges, panneaux, onglets. | [recommandée, par Jakub Antalik](https://transitions.dev) |
 | Transitions polish | Affiner des animations existantes selon une échelle de durées, de distances, de flous et de courbes. | [recommandée, par Jakub Antalik](https://transitions.dev) |
+| ui-skills | Contrôles et corrections d’interface : base visuelle, accessibilité, métadonnées, performance des animations. (4 skills) | [recommandée, par ibelick](https://github.com/ibelick/ui-skills) |
 
 ### Illustration et schémas
 
 | Skill | Ce qu'elle fait | Où |
 |---|---|---|
 | `drawing-animated-diagrams` | Diagrammes SVG pour React qui se dessinent à l'entrée dans l'écran, en encre et en gris. S'appuie sur diagram-storytelling et Emil Design Eng. | [dossier](skills/drawing-animated-diagrams) |
-| `resource-illustrations` | Vignettes de cartes de ressources : un fragment de la chose, des annotations, une touche d'accent. | [dossier](skills/resource-illustrations) |
+| `card-illustrations` | Illustrations de cartes (guides, templates, articles) : un fragment de la chose, des annotations, une touche d'accent. | [dossier](skills/card-illustrations) |
 | `marker-sketch` | Croquis au feutre sur papier à points, en SVG, avec quatre modes dont un mode interactif. | [dossier](skills/marker-sketch) |
 | `diagram-storytelling` | Zonings, wireframes, parcours et schémas minimalistes pour slides : une idée par diagramme. | [dossier](skills/diagram-storytelling) |
+| Skills d’Anthropic | Le dépôt public de skills d’Anthropic, dont frontend-design et canvas-design. (2 skills) | [recommandée, par Anthropic](https://github.com/anthropics/skills) |
 
 ### Présentations
 
@@ -107,7 +123,87 @@ Complément de Transitions dev, à installer depuis la même source (voir transi
 
 Par TJ Pitre, Southleft, licence MIT. [Dépôt](https://github.com/southleft/figma-console-mcp) · [Site](https://docs.figma-console-mcp.southleft.com)
 
+<details><summary>30 skills de cette collection retenues ici</summary>
+
+`figjam-create-content`, `figma-analyze-component-set`, `figma-annotations`, `figma-arrange-component-set`, `figma-audit-accessibility`, `figma-blame-node`, `figma-check-design-parity`, `figma-code-connect`, `figma-comments`, `figma-component-properties`, `figma-create-new-file`, `figma-deep-component`, `figma-design-system-inventory`, `figma-export-tokens`, `figma-generate-changelog`, `figma-generate-component-doc`, `figma-generate-design`, `figma-generate-diagram`, `figma-generate-library`, `figma-import-tokens`, `figma-library-variables`, `figma-lint-design`, `figma-manage-variables`, `figma-scan-code-accessibility`, `figma-setup-design-tokens`, `figma-slides`, `figma-use`, `figma-use-figjam`, `figma-use-slides`, `figma-version-history`
+
+</details>
+
 Nécessite un jeton d'accès Figma. Non affilié à Figma.
+
+### designer-skills
+
+Par Owl-Listener, licence MIT. [Dépôt](https://github.com/Owl-Listener/designer-skills)
+
+<details><summary>91 skills de cette collection retenues ici</summary>
+
+`a-b-test-design`, `accessibility-audit`, `accessibility-test-plan`, `aesthetic-usability`, `affinity-diagram`, `animation-principles`, `card-sort-analysis`, `case-study`, `click-test-plan`, `color-system`, `competitive-analysis`, `component-spec`, `content-strategy`, `critique-brand-consistency`, `critique-composition`, `critique-typography`, `critique-visual-hierarchy`, `dark-mode-design`, `data-visualization`, `design-brief`, `design-critique`, `design-debt-audit`, `design-impact-reporting`, `design-negotiation`, `design-principles`, `design-qa-checklist`, `design-rationale`, `design-review-process`, `design-sprint-plan`, `design-system-adoption`, `design-system-governance`, `design-token`, `design-token-audit`, `diary-study-plan`, `documentation-template`, `doherty-threshold`, `empathy-map`, `error-handling-ux`, `experience-map`, `feedback-patterns`, `fitts-law`, `form-design`, `gesture-patterns`, `handoff-spec`, `heuristic-evaluation`, `hicks-law`, `icon-system`, `illustration-style`, `information-architecture`, `interview-script`, `jobs-to-be-done`, `journey-map`, `law-of-common-region`, `law-of-proximity`, `layout-grid`, `loading-states`, `localization-design`, `metrics-definition`, `micro-interaction-spec`, `millers-law`, `motion-system`, `naming-convention`, `navigation-patterns`, `north-star-vision`, `onboarding-design`, `opportunity-framework`, `pattern-library`, `presentation-deck`, `prototype-strategy`, `readable-measure`, `research-repository`, `responsive-design`, `search-ux`, `service-blueprint`, `spacing-system`, `stakeholder-alignment`, `state-machine`, `summarize-interview`, `survey-design`, `team-workflow`, `test-scenario`, `theming-system`, `typography-scale`, `usability-test-plan`, `user-flow-diagram`, `user-persona`, `ux-writing`, `version-control-strategy`, `visual-hierarchy`, `von-restorff-effect`, `wireframe-spec`
+
+</details>
+
+Sélection de cette collection. La liste complète et la procédure d’installation sont dans son dépôt.
+
+### ai-design-skills
+
+Par Owl-Listener, licence MIT. [Dépôt](https://github.com/Owl-Listener/ai-design-skills)
+
+<details><summary>44 skills de cette collection retenues ici</summary>
+
+`agent-role-design`, `behavioral-consistency`, `bias-detection-design`, `chain-of-thought-design`, `comparative-evaluation`, `consent-and-agency`, `constraint-specification`, `context-engineering`, `context-window-design`, `conversation-patterns`, `cultural-adaptation`, `domain-voice`, `emotional-design`, `error-personality`, `escalation-design`, `failure-recovery`, `failure-taxonomy`, `feedback-loops`, `few-shot-patterns`, `frustration-detection`, `generative-ui`, `guardrail-design`, `handoff-protocols`, `harm-anticipation`, `heuristic-evaluation-ai`, `human-in-the-loop`, `longitudinal-measurement`, `mixed-initiative-flow`, `multimodal-orchestration`, `observability-design`, `output-quality-rubrics`, `persona-architecture`, `progressive-disclosure`, `prompt-versioning`, `state-management`, `system-prompt-structure`, `task-decomposition`, `task-success-metrics`, `template-design`, `tone-calibration`, `transparency-patterns`, `trust-calibration`, `user-satisfaction-signals`, `value-specification`
+
+</details>
+
+Sélection de cette collection. La liste complète et la procédure d’installation sont dans son dépôt.
+
+### layers-skills
+
+Par Jamie Mill, licence MIT. [Dépôt](https://github.com/jamiemill/layers-skills)
+
+<details><summary>9 skills de cette collection retenues ici</summary>
+
+`layers-conceptual-model`, `layers-domain`, `layers-interaction-flow`, `layers-intro`, `layers-observed-behaviour`, `layers-orient`, `layers-product-strategy`, `layers-surface`, `layers-user-needs`
+
+</details>
+
+Commencer par layers-intro, qui pose le cadre des autres.
+
+### ui-skills
+
+Par ibelick, licence MIT. [Dépôt](https://github.com/ibelick/ui-skills)
+
+<details><summary>4 skills de cette collection retenues ici</summary>
+
+`baseline-ui`, `fixing-accessibility`, `fixing-metadata`, `fixing-motion-performance`
+
+</details>
+
+Voir son dépôt pour l’installation.
+
+### taste-skill
+
+Par Leonxlnx, licence MIT. [Dépôt](https://github.com/Leonxlnx/taste-skill)
+
+Voir son dépôt pour la liste des variantes et l’installation.
+
+### Skills d’Anthropic
+
+Par Anthropic. [Dépôt](https://github.com/anthropics/skills)
+
+<details><summary>2 skills de cette collection retenues ici</summary>
+
+`canvas-design`, `frontend-design`
+
+</details>
+
+Chaque skill y garde sa propre licence : voir son dossier.
+
+### Karpathy guidelines
+
+Par forrestchang. [Dépôt](https://github.com/forrestchang/andrej-karpathy-skills)
+
+### find-skills
+
+Par Vercel Labs. [Dépôt](https://github.com/vercel-labs/skills)
 <!-- external:end -->
 
 ## Installer une skill de ce dépôt
