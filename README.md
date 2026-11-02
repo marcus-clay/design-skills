@@ -4,7 +4,7 @@ Des skills pour Claude et Codex autour du produit, du design, du prototypage et 
 
 Ce dépôt réunit deux familles :
 - **Les skills de ce dépôt**, libres d'usage sous licence MIT.
-- **Les skills recommandées**, écrites par d'autres : l'index renvoie vers leur source et leur commande d'installation.
+- **Les skills recommandées**, écrites par d'autres : l'index les signale avec leur auteur et renvoie vers leur source, sans rien copier.
 
 ## Index
 
@@ -77,9 +77,7 @@ Elles appartiennent à leurs auteurs et gardent leur licence : le plus fiable e
 
 Par Emil Kowalski. [Dépôt](https://github.com/emilkowalski/skills)
 
-```bash
-npx skills add https://github.com/emilkowalski/skills --skill emil-design-eng
-```
+La procédure d'installation à jour se trouve dans le README de son dépôt.
 
 ### Impeccable
 

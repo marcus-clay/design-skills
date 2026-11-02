@@ -68,7 +68,7 @@
       "summary": "La philosophie de finition d'interface et de choix d'animation d'Emil Kowalski.",
       "author": "Emil Kowalski",
       "repo": "https://github.com/emilkowalski/skills",
-      "install": "npx skills add https://github.com/emilkowalski/skills --skill emil-design-eng"
+      "note": "La procédure d'installation à jour se trouve dans le README de son dépôt."
     },
     {
       "id": "impeccable",
