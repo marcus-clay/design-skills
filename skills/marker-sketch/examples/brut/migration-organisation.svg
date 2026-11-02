@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+
+<!-- périmètres de squads (chemins de même structure: ils se déforment d'un état à l'autre) -->
+<path id="sqA" class="dotk" d="M-10 -10L10 -6L7 10L-6 7Z"/>
+<path id="sqB" class="dotk" d="M-10 -10L10 -6L7 10L-6 7Z"/>
+<path id="sqC" class="dotk" d="M-10 -10L10 -6L7 10L-6 7Z"/>
+<!-- plateforme -->
+<g id="plat">
+<path class="sh" transform="translate(-7 10)" d="M-650-56L650-60L646 58L-648 56Z"/>
+<path class="pp" d="M-650-56L650-60L646 58L-648 56Z"/>
+<path class="f1" transform="translate(-3 3)" d="M-650-56L650-60L646 58L-648 56Z"/>
+<g class="ink"><path d="M-654-58L652-62L648 60L-650 58Z"/></g>
+<text class="t" x="0" y="12">Plateforme partagée : design system, données, outils</text>
+</g>
+<!-- liens qui suivent les éléments -->
+<path id="k1" class="ink arr" data-link="d1>p1"/>
+<path id="k2" class="ink arr" data-link="p1>t1"/>
+<path id="k3" class="inkg arrg" data-link="plat>sqA" data-bend=".1"/>
+<path id="k4" class="inkg arrg" data-link="plat>sqB" data-bend=".1"/>
+<path id="k5" class="inkg arrg" data-link="plat>sqC" data-bend=".1"/>
+<!-- textes -->
+<text id="lD" class="t" data-layer="roles" x="0" y="0">Design</text>
+<text id="lP" class="t" data-layer="roles" x="0" y="0">Produit</text>
+<text id="lT" class="t" data-layer="roles" x="0" y="0">Tech</text>
+<text id="rel" class="tb" x="0" y="0">relais</text>
+<text id="nA" class="t l" x="0" y="0">Squad A</text>
+<text id="nB" class="t l" x="0" y="0">Squad B</text>
+<text id="nC" class="t l" x="0" y="0">Squad C</text>
+<g id="d1"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70" class="c1"/></g></g><g id="p1"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70"/></g></g><g id="t1"><g transform="scale(.6)"><use href="#g-person-dark" x="-60" y="-70"/></g></g><g id="d2"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70" class="c1"/></g></g><g id="p2"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70"/></g></g><g id="t2"><g transform="scale(.6)"><use href="#g-person-dark" x="-60" y="-70"/></g></g><g id="d3"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70" class="c1"/></g></g><g id="p3"><g transform="scale(.6)"><use href="#g-person" x="-60" y="-70"/></g></g><g id="t3"><g transform="scale(.6)"><use href="#g-person-dark" x="-60" y="-70"/></g></g>
+
+</svg>

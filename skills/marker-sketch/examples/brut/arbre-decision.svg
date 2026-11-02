@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<path class="ink arr" d="M709.3 198 C644 217.6 644 276.4 578.7 296"/>
+<path class="ink arr" d="M890.7 198 C956 217.6 956 276.4 1021.3 296"/>
+<path class="ink arr" d="M439.7 438 C422.5 510.8 370.7 510.8 353.5 583.5"/>
+<path class="ink arr" d="M520.3 438 C537.5 510.8 589.3 510.8 606.5 583.5"/>
+<path class="ink arr" d="M1089.8 438 C1078.2 503 1043.6 503 1032 568"/>
+<path class="ink arr" d="M1155.3 438 C1169.7 507.5 1212.9 507.5 1227.3 577"/>
+<g id="r"><use href="#sr" x="-7" y="10" class="sh"/><use href="#sr" class="pp"/><use href="#sr" x="-2.5" y="2.5" class="f4"/><g class="ink"><path id="sr" d="M600 74 L1000 72.9 Q1039.9 74 1040 114 L1039.3 146 Q1040 186 1000 184.5 L600 186.5 Q560 186 559.4 146 L558.8 114 Q560 74 606 72.5"/></g><text class="tw" x="800" y="142.2">Utilisateur bloqué ?</text></g>
+<g id="n1"><use href="#sn1" x="-7" y="10" class="sh"/><use href="#sn1" class="pp"/><g class="ink"><path id="sn1" d="M330 312.7 L630 315.3 Q669.4 314 670 354 L670.9 386 Q670 426 630 426.1 L330 426.8 Q290 426 289.9 386 L290.3 354 Q290 314 333.8 312.5"/></g><text class="t" x="480" y="382.2">Article existant ?</text></g>
+<g id="n2"><use href="#sn2" x="-7" y="10" class="sh"/><use href="#sn2" class="pp"/><g class="ink"><path id="sn2" d="M1010 312.5 L1230 314.8 Q1268.9 314 1270 354 L1270.6 386 Q1270 426 1230 427.1 L1010 426.6 Q970 426 968.5 386 L969.8 354 Q970 314 1014.7 312.5"/></g><text class="t" x="1120" y="382.2">Urgent ?</text></g>
+<g id="l1"><g transform="translate(281.5 601.5) scale(1.1)"><use href="#g-check"/></g><text class="t" x="320" y="734.7">Envoyer le lien</text></g>
+<g id="l2"><g transform="translate(601.5 601.5) scale(1.1)"><use href="#g-cross"/></g><text class="t" x="640" y="734.7">Rédiger l’article</text></g>
+<g id="l3"><g transform="translate(968.5 586) scale(0.9)"><use href="#g-bolt"/></g><text class="t" x="1000" y="750.2">Escalader</text></g>
+<g id="l4"><g transform="translate(1215 595)"><use href="#g-clock"/></g><text class="t" x="1260" y="741.2">File d’attente</text></g>
+<text class="t" x="535" y="257.2">non résolu</text>
+<text class="t" x="347.1" y="521">oui</text>
+<text class="t" x="612.9" y="521">non</text>
+<text class="t" x="1011.4" y="513.2">oui</text>
+<text class="t" x="1240.8" y="517.7">non</text>
+
+</svg>

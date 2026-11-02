@@ -1,0 +1,76 @@
+{
+ "L": 0.655,
+ "C": 0.11,
+ "colors": [
+  {
+   "name": "rouge",
+   "hue": 25,
+   "hex": "#CB756E",
+   "soft": "#FFE7E4",
+   "contrast": 3.33
+  },
+  {
+   "name": "corail",
+   "hue": 45,
+   "hex": "#C87A56",
+   "soft": "#FFE9DE",
+   "contrast": 3.3
+  },
+  {
+   "name": "orange",
+   "hue": 65,
+   "hex": "#BF8242",
+   "soft": "#FDEBDA",
+   "contrast": 3.25
+  },
+  {
+   "name": "ambre",
+   "hue": 85,
+   "hex": "#AF8B37",
+   "soft": "#F8EDD8",
+   "contrast": 3.19
+  },
+  {
+   "name": "vert",
+   "hue": 145,
+   "hex": "#63A266",
+   "soft": "#E3F4E2",
+   "contrast": 3.03
+  },
+  {
+   "name": "emeraude",
+   "hue": 165,
+   "hex": "#42A680",
+   "soft": "#DDF5E9",
+   "contrast": 3.01
+  },
+  {
+   "name": "turquoise",
+   "hue": 195,
+   "hex": "#0DA5A5",
+   "soft": "#D8F5F5",
+   "contrast": 3.02
+  },
+  {
+   "name": "ciel",
+   "hue": 230,
+   "hex": "#389DC7",
+   "soft": "#DBF3FF",
+   "contrast": 3.09
+  },
+  {
+   "name": "bleu",
+   "hue": 262,
+   "hex": "#6B90D4",
+   "soft": "#E4EFFF",
+   "contrast": 3.19
+  },
+  {
+   "name": "violet",
+   "hue": 292,
+   "hex": "#9284CE",
+   "soft": "#EEEBFF",
+   "contrast": 3.28
+  }
+ ]
+}

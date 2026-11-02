@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<path class="dotk" d="M359 62.9 L1082.8 66.6 L1082.8 825.1 L355.5 826.7 L362.4 63.5"/>
+<path class="inkg arrg" d="M720 227 C720 252 720 252 720 277"/>
+<path class="inkg arrg" d="M720 417 C720 442 720 442 720 467"/>
+<path class="inkg arrg" d="M720 607 C720 632 720 632 720 657"/>
+<path class="ink arr" d="M242 160 C312 160 312 160 382 160"/>
+<path class="ink arr" d="M1052 350 C1132 350 1132 350 1212 350"/>
+<path class="ink arr" d="M1052 713.7 C1152 713.7 1152 703.8 1252 703.8"/>
+<g id="L0"><use href="#sL0" x="-7" y="10" class="sh"/><use href="#sL0" class="pp"/><use href="#sL0" x="-2.5" y="2.5" class="f1"/><g class="ink"><path id="sL0" d="M397.4 103.9 L1042.9 105.9 L1040 215.9 L398.8 216.7 L398.5 103.8"/></g><text class="t" x="720" y="172.9">Interface : chat et widgets</text></g>
+<g id="L1"><use href="#sL1" x="-7" y="10" class="sh"/><use href="#sL1" class="pp"/><use href="#sL1" x="-2.5" y="2.5" class="f2"/><g class="ink"><path id="sL1" d="M396.9 294.1 L1041.3 293.5 L1039.5 407.3 L397.2 405.2 L401.2 293.8"/></g><text class="t" x="720" y="362.9">Orchestrateur d’agents</text></g>
+<g id="L2"><use href="#sL2" x="-7" y="10" class="sh"/><use href="#sL2" class="pp"/><g class="ink"><path id="sL2" d="M399.6 483.2 L1042.8 484.2 L1041.1 598.5 L398.7 596 L399.7 483.4"/></g><text class="t" x="720" y="552.9">Outils et connecteurs</text></g>
+<g id="L3"><use href="#sL3" x="-7" y="10" class="sh"/><use href="#sL3" class="pp"/><use href="#sL3" x="-2.5" y="2.5" class="f3"/><g class="ink"><path id="sL3" d="M396.8 674.4 L1042.9 675.1 L1039.7 785.9 L396.4 783.1 L398.9 672.6"/></g><text class="tw" x="720" y="742.9">Données métier</text></g>
+<g id="u"><g transform="translate(110 90)"><use href="#g-person"/></g><text class="t" x="170" y="286.2">Utilisateur</text></g>
+<g id="m"><g transform="translate(1230 285)"><use href="#g-cloud"/></g><text class="t" x="1330" y="471.2">Modèle</text></g>
+<g id="d"><g transform="translate(1270 625)"><use href="#g-db"/></g><text class="t" x="1330" y="831.2">Entrepôt</text></g>
+<text class="t l" x="384" y="51.9">notre produit</text>
+
+</svg>

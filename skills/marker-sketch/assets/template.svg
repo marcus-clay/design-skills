@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<title>Croquis</title>
+<defs>
+<style>
+/* ===== marker-sketch : noyau de style. Ne pas modifier, copier tel quel. ===== */
+.paper{fill:#f3f2ee}
+.ink{fill:none;stroke:#161616;stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round}
+.fine{fill:none;stroke:#161616;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.mid{fill:none;stroke:#161616;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.inkg{fill:none;stroke:#80838a;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round}
+.inkb{fill:none;stroke:#2547a8;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+.flow{fill:none;stroke:#8e9198;stroke-width:10;stroke-linecap:round;stroke-dasharray:.1 22 .1 30 .1 16 .1 34}
+.dotk{fill:none;stroke:#161616;stroke-width:5.5;stroke-linecap:round;stroke-dasharray:.1 17}
+.dash{fill:none;stroke:#161616;stroke-width:3.2;stroke-linecap:round;stroke-dasharray:16 12}
+.arr{marker-end:url(#ah)}
+.arrb{marker-end:url(#ahb)}
+.arrg{marker-end:url(#ahg)}
+.arr2{marker-end:url(#ah);marker-start:url(#ah)}
+.sh{fill:#c6c9ce;stroke:none}
+.pp{fill:#f3f2ee;stroke:none}
+.hl{fill:none;stroke:#b3b6bc;stroke-width:10;stroke-linecap:round;filter:url(#mk)}
+.fx{fill:var(--fx,#a4a7ad);stroke:none;filter:url(#mk)}
+.cb{--fx:#2f93d8}.co{--fx:#ef7c1f}.cr{--fx:#d9473c}.cs{--fx:#c79b62}.ch{--fx:#dde37c}.c1{--fx:#d6d8dc}.c3{--fx:#6f737d}.c4{--fx:#1c1c1e}
+.f1,.f2,.f3,.f4,.fh,.fb,.fo,.fr,.fs{stroke:none;filter:url(#mk)}
+.f1{fill:#d6d8dc}
+.f2{fill:#a4a7ad}
+.f3{fill:#6f737d}
+.f4{fill:#1c1c1e;filter:none}
+.fh{fill:#dde37c}
+.fb{fill:#2f93d8}
+.fo{fill:#ef7c1f}
+.fr{fill:#d9473c}
+.fs{fill:#c79b62}
+.t,.tl,.ts,.tb,.tg,.tw{font-family:'Patrick Hand','Caveat','Segoe Print','Bradley Hand','Marker Felt','Comic Sans MS',cursive;fill:#161616;text-anchor:middle}
+.t{font-size:36px}
+.tl{font-size:52px}
+.ts{font-size:27px}
+.tb{font-size:32px;fill:#2547a8}
+.tg{font-size:32px;fill:#7d8088}
+.tw{font-size:36px;fill:#f3f2ee}
+.l{text-anchor:start}
+.r{text-anchor:end}
+</style>
+<marker id="ah" viewBox="-14 -11 16 22" refX="0" refY="0" markerWidth="16" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M-12-8L0 0L-11 8" fill="none" stroke="#161616" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ahb" viewBox="-14 -11 16 22" refX="0" refY="0" markerWidth="16" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto"><path d="M-12-8L0 0L-11 8" fill="none" stroke="#2547a8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ahg" viewBox="-14 -11 16 22" refX="0" refY="0" markerWidth="16" markerHeight="22" markerUnits="userSpaceOnUse" orient="auto"><path d="M-12-8L0 0L-11 8" fill="none" stroke="#80838a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<!-- tremblé du trait : deux échelles (ondulation large + grain fin) -->
+<filter id="wob" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1720" height="980" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".011" numOctaves="2" seed="7" result="n1"/>
+<feDisplacementMap in="SourceGraphic" in2="n1" scale="7.5" xChannelSelector="R" yChannelSelector="G" result="d1"/>
+<feTurbulence type="fractalNoise" baseFrequency=".12" numOctaves="1" seed="3" result="n2"/>
+<feDisplacementMap in="d1" in2="n2" scale="2.6" xChannelSelector="G" yChannelSelector="R"/>
+</filter>
+<!-- stries de feutre : opacité modulée par un bruit étiré à l'horizontale -->
+<filter id="mk" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency=".004 .085" numOctaves="2" seed="11" result="s"/>
+<feColorMatrix in="s" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .75 0 0 0 .52" result="m"/>
+<feComposite in="SourceGraphic" in2="m" operator="in"/>
+</filter>
+<pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="22" cy="22" r="1.7" fill="#b8b8b2"/></pattern>
+</defs>
+<rect class="paper" width="1600" height="900"/>
+<rect width="1600" height="900" fill="url(#dots)"/>
+<g id="drawing" filter="url(#wob)">
+<!-- DESSIN ICI -->
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<path class="dotk" d="M38 292.4 L1021.7 288.9 L1021.4 551.4 L35.1 548.8 L41.4 287.9"/>
+<path class="ink arr" d="M422 420 C527 420 527 420 632 420"/>
+<path class="ink arr" d="M962 420 C1067 420 1067 420 1172 420"/>
+<path class="flow" d="M1250 520C1250 770 260 770 260 520"/>
+<g id="i1"><g transform="translate(206 136) scale(0.9)"><use href="#g-magnifier"/></g></g>
+<g id="i2"><g transform="translate(746 136) scale(0.9)"><use href="#g-target"/></g></g>
+<g id="i3"><g transform="translate(1308 124) scale(0.8)"><use href="#g-flag"/></g></g>
+<g id="a"><use href="#sa" x="-7" y="10" class="sh"/><use href="#sa" class="pp"/><use href="#sa" x="-2.5" y="2.5" class="f1"/><g class="ink"><path id="sa" d="M109.7 360.5 L410.8 358.2 L410.2 483.3 L107.8 481.1 L110.4 356.9"/></g><text class="t" x="260" y="432.2">Explorer</text></g>
+<g id="b"><use href="#sb" x="-7" y="10" class="sh"/><use href="#sb" class="pp"/><use href="#sb" x="-2.5" y="2.5" class="fh"/><g class="ink"><path id="sb" d="M646.3 361.6 L951.2 361.9 L950.7 481.9 L649 481.9 L651.4 357"/></g><text class="t" x="800" y="432.2">Définir</text></g>
+<g id="c"><use href="#sc" x="-7" y="10" class="sh"/><use href="#sc" class="pp"/><use href="#sc" x="-2.5" y="2.5" class="f4"/><g class="ink"><path id="sc" d="M1189.5 358.8 L1492.7 360.4 L1490 480.8 L1188.3 480.1 L1188.5 357.5"/></g><text class="tw" x="1340" y="432.2">Livrer</text></g>
+<text class="t l" x="64" y="276.9">Discovery</text>
+<text class="tg" x="800" y="810.9">boucle d’apprentissage</text>
+<text class="tb" x="1470" y="650.9">on mesure ici</text>
+<path class="inkb arrb" d="M1470 604 Q1446.7 533.5 1383.7 494"/>
+</svg>

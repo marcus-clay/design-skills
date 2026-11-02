@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+
+<path class="ink arr" d="M200 740L200 130"/>
+<path class="ink arr" d="M200 740L1480 740"/>
+<text class="ts" x="150" y="140">usage</text>
+<text class="ts" x="1450" y="785">temps</text>
+<path class="dash" d="M200 420L1440 420" stroke="#80838a"/>
+<text class="tg l" x="230" y="400">seuil de rentabilité</text>
+<path id="curve" class="ink" style="stroke-width:6" d="M200 640C350.0 640 350.0 630 500 630C650.0 630 650.0 610 800 610C950.0 610 950.0 590 1100 590C1250.0 590 1250.0 580 1400 580"/>
+<g id="pt"><g transform="scale(.5)"><use href="#g-target" x="-60" y="-60"/></g></g>
+<text id="lab" class="t l" x="0" y="0">Aujourd’hui</text>
+<path id="ann" class="inkb arrb" d="M1180 150C1270 120 1330 140 1372 180"/>
+<text id="annT" class="tb" x="1090" y="150">rupture de pente</text>
+
+</svg>

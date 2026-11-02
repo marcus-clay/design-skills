@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+
+<g id="w"><g transform="translate(536 184) scale(1.6)"><use href="#g-window"/></g></g>
+<g id="p1"><g transform="translate(264 483) scale(1.1)"><use href="#g-person"/></g><text class="t" x="330" y="693.2">Équipe produit</text></g>
+<g id="p2"><g transform="translate(1204 483) scale(1.1)"><use href="#g-person"/></g><text class="t" x="1270" y="693.2">Design</text></g>
+<g id="f"><g transform="translate(749 670.5) scale(0.85)"><use href="#g-person-dark"/></g><text class="t" x="800" y="841.7">Facilitation</text></g>
+<g id="b"><g transform="translate(265 200)"><use href="#g-bubble"/></g></g>
+<g id="i"><g transform="translate(1195 185)"><use href="#g-bulb"/></g></g>
+<g id="s1"><g transform="translate(478 728) scale(0.7)"><use href="#g-sticky"/></g></g>
+<g id="s2"><g transform="translate(1048 728) scale(0.7)"><use href="#g-sticky" class="ch"/></g></g>
+<text class="tb" x="1160" y="100.9">on décide ici</text>
+<path class="inkb arrb" d="M1160 116 Q1096.9 123.8 1053.3 170"/>
+</svg>

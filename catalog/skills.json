@@ -1,0 +1,116 @@
+{
+  "themes": ["Produit et stratégie", "Design et UX", "Facilitation", "Prototypage", "Animation", "Illustration et schémas", "Présentations"],
+  "skills": [
+    {
+      "id": "socle",
+      "themes": ["Produit et stratégie"],
+      "summary": "Méthode en cinq étapes pour démarrer un produit digital : structurer, outiller, construire, livrer, élargir."
+    },
+    {
+      "id": "direction-design",
+      "themes": ["Produit et stratégie", "Design et UX"],
+      "summary": "Feuille de route de conception, cadence d'instances et argumentaires pour peser dans un arbitrage."
+    },
+    {
+      "id": "ux-et-design-thinking",
+      "themes": ["Design et UX"],
+      "summary": "Regard de méthode sur un parcours ou un écran : job à accomplir, faits d'usage, réutilisation de composants."
+    },
+    {
+      "id": "facilitation-ateliers",
+      "themes": ["Facilitation"],
+      "summary": "Déroulé d'atelier ou de réunion : format, participants, durée et livrable."
+    },
+    {
+      "id": "prototype-anime",
+      "themes": ["Prototypage", "Animation"],
+      "summary": "Un parcours d'écrans joué comme un film, sur mobile et desktop : doigt ou curseur, saisie, caméra. Démos en direct.",
+      "repo": "https://github.com/marcus-clay/prototype-anime-skill",
+      "site": "https://marcus-clay.github.io/prototype-anime-skill/"
+    },
+    {
+      "id": "ship-to-show",
+      "themes": ["Prototypage"],
+      "summary": "Transformer un prototype en étude de cas publiée, en sept phases, avec vidéos et contenu bilingue."
+    },
+    {
+      "id": "drawing-animated-diagrams",
+      "themes": ["Animation", "Illustration et schémas"],
+      "summary": "Diagrammes SVG pour React qui se dessinent à l'entrée dans l'écran, en encre et en gris.",
+      "dependsOn": ["diagram-storytelling", "emil-design-eng"]
+    },
+    {
+      "id": "resource-illustrations",
+      "themes": ["Illustration et schémas"],
+      "summary": "Vignettes de cartes de ressources : un fragment de la chose, des annotations, une touche d'accent."
+    },
+    {
+      "id": "marker-sketch",
+      "themes": ["Illustration et schémas"],
+      "summary": "Croquis au feutre sur papier à points, en SVG, avec quatre modes dont un mode interactif."
+    },
+    {
+      "id": "diagram-storytelling",
+      "themes": ["Illustration et schémas", "Présentations"],
+      "summary": "Zonings, wireframes, parcours et schémas minimalistes pour slides : une idée par diagramme."
+    },
+    {
+      "id": "slides",
+      "themes": ["Présentations"],
+      "summary": "Tokens de design, quinze mises en page et conventions narratives pour des présentations."
+    }
+  ],
+  "external": [
+    {
+      "id": "emil-design-eng",
+      "themes": ["Animation", "Design et UX"],
+      "title": "Emil Design Eng",
+      "summary": "La philosophie de finition d'interface et de choix d'animation d'Emil Kowalski.",
+      "author": "Emil Kowalski",
+      "repo": "https://github.com/emilkowalski/skills",
+      "install": "npx skills add https://github.com/emilkowalski/skills --skill emil-design-eng"
+    },
+    {
+      "id": "impeccable",
+      "themes": ["Design et UX", "Animation"],
+      "title": "Impeccable",
+      "summary": "Une skill et vingt-quatre commandes (polish, audit, critique, animate...) pour guider et contrôler le design d'une interface.",
+      "author": "Paul Bakaus",
+      "repo": "https://github.com/pbakaus/impeccable",
+      "site": "https://impeccable.style",
+      "install": "npx impeccable install",
+      "license": "Apache 2.0"
+    },
+    {
+      "id": "transitions-dev",
+      "themes": ["Animation"],
+      "title": "Transitions dev",
+      "summary": "Une collection de transitions CSS prêtes à l'emploi : modales, menus, badges, panneaux, onglets.",
+      "author": "Jakub Antalik",
+      "repo": "https://github.com/Jakubantalik/transitions.dev",
+      "site": "https://transitions.dev",
+      "install": "npx skills add Jakubantalik/transitions.dev",
+      "note": "Licence propre : usage libre, redistribution de la bibliothèque interdite. Elle est donc à installer depuis sa source."
+    },
+    {
+      "id": "transitions-polish",
+      "themes": ["Animation"],
+      "title": "Transitions polish",
+      "summary": "Affiner des animations existantes selon une échelle de durées, de distances, de flous et de courbes.",
+      "author": "Jakub Antalik",
+      "site": "https://transitions.dev",
+      "note": "Complément de Transitions dev, à installer depuis la même source (voir transitions.dev)."
+    },
+    {
+      "id": "figma-console-mcp",
+      "themes": ["Prototypage", "Design et UX"],
+      "title": "Figma Console MCP",
+      "summary": "Un serveur MCP qui relie l'IA à Figma : lire et créer des designs, des tokens et des composants, avec ses commandes internes (skills figma-*).",
+      "author": "TJ Pitre, Southleft",
+      "repo": "https://github.com/southleft/figma-console-mcp",
+      "site": "https://docs.figma-console-mcp.southleft.com",
+      "license": "MIT",
+      "note": "Nécessite un jeton d'accès Figma. Non affilié à Figma."
+    }
+  ]
+}
