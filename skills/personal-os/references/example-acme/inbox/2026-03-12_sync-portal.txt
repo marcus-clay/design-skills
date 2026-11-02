@@ -1,0 +1,27 @@
+Transcription automatique, point hebdomadaire Portal et Insights, jeudi 12 mars 2026, 25 minutes. Présents : Sam, Dana, Riley, Morgan.
+
+[00:00] Sam : Merci d'être là. Trois points : la checklist d'accueil du Portal, les filtres d'Insights, et les noms des jetons de design.
+[01:10] Dana : Je commence par la checklist. Le support reçoit beaucoup de tickets de gens perdus à leur première connexion.
+[02:05] Morgan : J'ai trois pistes : une liste en bandeau, une fenêtre guidée, ou une page dédiée.
+[03:30] Riley : Côté technique, la liste en bandeau est faisable avant l'été. Pour les comptes existants, il faudrait migrer les données de profil, et on n'a pas la capacité avant juillet.
+[05:00] Dana : Alors on part là-dessus : la checklist v1 uniquement pour les nouveaux comptes. Les comptes existants, ce sera la v2.
+[05:40] Sam : D'accord. Morgan, tu prépares les trois variantes pour qu'on tranche la forme ?
+[06:00] Morgan : Oui, je les prépare pour la semaine prochaine.
+[06:20] Dana : Et Sam, tu me partages le brouillon dès que tu l'as.
+[06:35] Sam : Oui, cette semaine.
+[08:10] Sam : Deuxième point, les filtres enregistrés d'Insights. Riley, où en est l'API ?
+[09:00] Riley : Bonne nouvelle, l'équipe a avancé : l'API de filtres enregistrés sera disponible en avril, plus en juin.
+[09:45] Dina : Il me faudrait ça par écrit, avec la date, avant vendredi prochain, pour le comité.
+[10:05] Riley : Je le confirme par mail avant vendredi.
+[11:20] Morgan : Si c'est avril, je peux concevoir l'écran des filtres dès maintenant.
+[11:50] Sam : Oui, mais on verra si les retours du comité changent la donne.
+[13:15] Dana : Franchement, on pourrait peut-être décaler les filtres à l'été si le comité préfère se concentrer sur l'accueil. On verra.
+[14:00] Sam : On en reparle après le comité, alors.
+[16:30] Sam : Troisième point, les noms des jetons de design. Riley, tu avais une contrainte sur les noms ?
+[17:10] Riley : Oui, le code utilise déjà "color-primary". Si on renomme côté design, il faudra une table de correspondance.
+[18:00] Morgan : Je peux vérifier ça sur les trois écrans principaux.
+[18:40] Sam : Je ne suis pas sûr que ce soit prioritaire, on le garde ouvert.
+[21:00] Dana : Pour les retours de l'étude client, qui en est propriétaire ?
+[21:20] Sam : Aucune idée à ce stade, je poserai la question à Riley.
+[21:35] Riley : Je ne sais pas non plus, à voir.
+[24:50] Dana : OK, on s'arrête là. Merci à tous.

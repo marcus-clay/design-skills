@@ -13,6 +13,7 @@ Ce dépôt réunit deux familles :
 
 | Skill | Ce qu'elle fait | Où |
 |---|---|---|
+| `personal-os` | Crée un OS personnel avec Claude Code : un dossier de fichiers texte qui garde en mémoire le travail, avec une inbox, des règles d’ingestion et des agents. Exemple complet chez Acme Corp (fictive). | [dossier](skills/personal-os) |
 | `socle` | Méthode en cinq étapes pour démarrer un produit digital : structurer, outiller, construire, livrer, élargir. | [dossier](skills/socle) |
 | `direction-design` | Feuille de route de conception, cadence d'instances et argumentaires pour peser dans un arbitrage. | [dossier](skills/direction-design) |
 | layers-skills | Layers of Product Design : sept couches, du comportement observé jusqu’aux décisions de surface. (9 skills) | [recommandée, par Jamie Mill](https://github.com/jamiemill/layers-skills) |
@@ -90,6 +91,7 @@ Ce dépôt réunit deux familles :
 
 | Skill | Ce qu'elle fait | Où |
 |---|---|---|
+| `personal-os` | Crée un OS personnel avec Claude Code : un dossier de fichiers texte qui garde en mémoire le travail, avec une inbox, des règles d’ingestion et des agents. Exemple complet chez Acme Corp (fictive). | [dossier](skills/personal-os) |
 | `sober-writing` | Une posture d’écriture sobre pour tout texte lu par un tiers : faits, raisonnement visible, titres narratifs, sans les tics des modèles de langage. | [dossier](skills/sober-writing) |
 | `francais-parfait` | Les règles d’écriture en français natif : accents sur les majuscules, ligatures, guillemets, espaces insécables, style naturel. | [dossier](skills/francais-parfait) |
 | `brand-system` | Un système de marque sobre prêt à l’emploi : palette, typographie, dégradé, composants, logo, ton et structure des livrables. À combiner avec slides et pptx. S'appuie sur slides et pptx. | [dossier](skills/brand-system) |

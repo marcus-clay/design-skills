@@ -13,6 +13,14 @@
   ],
   "skills": [
     {
+      "id": "personal-os",
+      "themes": [
+        "Produit et stratégie",
+        "Écriture et marque"
+      ],
+      "summary": "Crée un OS personnel avec Claude Code : un dossier de fichiers texte qui garde en mémoire le travail, avec une inbox, des règles d’ingestion et des agents. Exemple complet chez Acme Corp (fictive)."
+    },
+    {
       "id": "socle",
       "themes": [
         "Produit et stratégie"
