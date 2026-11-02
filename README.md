@@ -40,6 +40,12 @@ Ce dépôt réunit deux familles :
 |---|---|---|
 | ai-design-skills | Concevoir des produits et des agents d’IA : confiance, transparence, escalade, évaluation, gestion du contexte. (44 skills) | [recommandée, par Owl-Listener](https://github.com/Owl-Listener/ai-design-skills) |
 
+### Idéation et création
+
+| Skill | Ce qu'elle fait | Où |
+|---|---|---|
+| Creative Director | Un directeur de création : génération de concepts par méthodes d’idéation, évaluation sur critères calibrés et affinage jusqu’au seuil de qualité, avec une bibliothèque de 571 campagnes primées. | [recommandée, par Serge Shima (smixs), avec Paul Deadcough](https://cd-skill.com) |
+
 ### Facilitation
 
 | Skill | Ce qu'elle fait | Où |
@@ -204,6 +210,16 @@ Par forrestchang. [Dépôt](https://github.com/forrestchang/andrej-karpathy-skil
 ### find-skills
 
 Par Vercel Labs. [Dépôt](https://github.com/vercel-labs/skills)
+
+### Creative Director
+
+Par Serge Shima (smixs), avec Paul Deadcough, licence CC BY 4.0. [Dépôt](https://github.com/smixs/creative-director-skill) · [Site](https://cd-skill.com)
+
+```bash
+npx skills add smixs/creative-director-skill
+```
+
+La licence impose de citer l’auteur pour tout usage ou dérivé, bibliothèque de cas comprise. Redémarrer la session après l’installation.
 <!-- external:end -->
 
 ## Installer une skill de ce dépôt

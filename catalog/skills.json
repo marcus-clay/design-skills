@@ -3,6 +3,7 @@
     "Produit et stratégie",
     "Design et UX",
     "Design de l’IA",
+    "Idéation et création",
     "Facilitation",
     "Prototypage",
     "Animation",
@@ -448,6 +449,20 @@
       "author": "Vercel Labs",
       "repo": "https://github.com/vercel-labs/skills",
       "summary": "Trouver et installer des skills depuis l’écosystème ouvert des skills pour agents."
+    },
+    {
+      "id": "creative-director",
+      "themes": [
+        "Idéation et création"
+      ],
+      "title": "Creative Director",
+      "summary": "Un directeur de création : génération de concepts par méthodes d’idéation, évaluation sur critères calibrés et affinage jusqu’au seuil de qualité, avec une bibliothèque de 571 campagnes primées.",
+      "author": "Serge Shima (smixs), avec Paul Deadcough",
+      "repo": "https://github.com/smixs/creative-director-skill",
+      "site": "https://cd-skill.com",
+      "install": "npx skills add smixs/creative-director-skill",
+      "license": "CC BY 4.0",
+      "note": "La licence impose de citer l’auteur pour tout usage ou dérivé, bibliothèque de cas comprise. Redémarrer la session après l’installation."
     }
   ]
 }
