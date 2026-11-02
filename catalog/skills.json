@@ -8,6 +8,7 @@
     "Prototypage",
     "Animation",
     "Illustration et schémas",
+    "Écriture et marque",
     "Présentations"
   ],
   "skills": [
@@ -96,7 +97,45 @@
       "themes": [
         "Présentations"
       ],
-      "summary": "Tokens de design, quinze mises en page et conventions narratives pour des présentations."
+      "summary": "Tokens de design, quinze mises en page et conventions narratives pour des présentations.",
+      "dependsOn": [
+        "brand-system",
+        "pptx"
+      ]
+    },
+    {
+      "id": "sober-writing",
+      "themes": [
+        "Écriture et marque"
+      ],
+      "summary": "Une posture d’écriture sobre pour tout texte lu par un tiers : faits, raisonnement visible, titres narratifs, sans les tics des modèles de langage."
+    },
+    {
+      "id": "francais-parfait",
+      "themes": [
+        "Écriture et marque"
+      ],
+      "summary": "Les règles d’écriture en français natif : accents sur les majuscules, ligatures, guillemets, espaces insécables, style naturel."
+    },
+    {
+      "id": "brand-system",
+      "themes": [
+        "Écriture et marque",
+        "Présentations"
+      ],
+      "summary": "Un système de marque sobre prêt à l’emploi : palette, typographie, dégradé, composants, logo, ton et structure des livrables. À combiner avec slides et pptx.",
+      "dependsOn": [
+        "slides",
+        "pptx"
+      ]
+    },
+    {
+      "id": "signal-research",
+      "themes": [
+        "Écriture et marque",
+        "Idéation et création"
+      ],
+      "summary": "Veille de signaux (UI/UX, design produit, IA, outils, réglementation) puis angles de contenu calibrés sur le positionnement de chacun."
     }
   ],
   "external": [
@@ -463,6 +502,42 @@
       "install": "npx skills add smixs/creative-director-skill",
       "license": "CC BY 4.0",
       "note": "La licence impose de citer l’auteur pour tout usage ou dérivé, bibliothèque de cas comprise. Redémarrer la session après l’installation."
+    },
+    {
+      "id": "pptx",
+      "themes": [
+        "Présentations"
+      ],
+      "title": "pptx",
+      "summary": "La génération technique de présentations PowerPoint : slides, sections, tableaux, export en fichier .pptx.",
+      "author": "Anthropic",
+      "repo": "https://github.com/anthropics/skills",
+      "license": "propriétaire",
+      "note": "Licence propriétaire : à installer depuis la source uniquement, jamais à copier ailleurs."
+    },
+    {
+      "id": "ux-designer",
+      "themes": [
+        "Design et UX"
+      ],
+      "title": "ux-designer",
+      "summary": "Assistance de conception UX : recherche utilisateur, wireframes, prototypes, parcours, personas, tests d’utilisabilité, architecture d’information.",
+      "author": "projet awesome-llm-apps (auteur indiqué dans le fichier de la skill)",
+      "repo": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "license": "MIT",
+      "note": "Le dossier exact de la skill est à retrouver dans ce dépôt."
+    },
+    {
+      "id": "spec-ideation",
+      "themes": [
+        "Idéation et création",
+        "Produit et stratégie"
+      ],
+      "title": "spec-ideation",
+      "summary": "Un cadre en trois phases (expansion, contraction, documentation) pour transformer une idée floue en spécification décidée.",
+      "author": "cris-achiardi",
+      "repo": "https://github.com/cris-achiardi/claude-skills",
+      "license": "MIT"
     }
   ]
 }

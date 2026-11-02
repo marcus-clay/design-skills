@@ -22,8 +22,10 @@ par défaut. Si le projet a sa propre charte, la lire d'abord (palette, logo,
 polices) et remplacer ces valeurs : les mises en page, les règles et la
 structure narrative restent les mêmes.
 
-Si une skill de génération de fichiers existe (par exemple `pptx`), la lire
-également pour la technique de génération.
+Trois skills se combinent pour produire une présentation :
+- `brand-system` fournit l'identité (palette, typographie, dégradé, logo, ton). Si elle est installée, la lire en premier : ses tokens remplacent les valeurs par défaut ci-dessous.
+- `slides` (celle-ci) fournit la structure narrative et les quinze mises en page.
+- `pptx` (skill d'Anthropic, à installer séparément) fournit la génération technique du fichier. La lire pour la création du `.pptx`.
 
 ---
 

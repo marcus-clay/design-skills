@@ -1,0 +1,21 @@
+/* brand-system : tokens par défaut. À remplacer par ceux de la charte du projet. */
+:root {
+  --brand-logo: #295FEC;
+  --brand-primary: #3D65E8;
+  --brand-bg: #EBEFF7;
+  --brand-bg-soft: #F8F9FB;
+  --brand-surface: #FFFFFF;
+  --brand-surface-muted: #F0F2F7;
+  --brand-text: #111827;
+  --brand-text-muted: #6B7280;
+  --brand-success: #22C55E;
+  --brand-line: #E5E7EB;
+
+  --brand-font: Inter, 'Public Sans', Geist, 'SF Pro', 'Helvetica Neue', sans-serif;
+  --brand-radius-card: 16px;
+  --brand-radius-pill: 999px;
+  --brand-shadow-card: 0 1px 2px rgba(17, 24, 39, 0.06), 0 12px 24px -16px rgba(17, 24, 39, 0.18);
+
+  --brand-gradient: radial-gradient(ellipse at 85% 10%, rgba(180, 215, 245, 0.55) 0%, rgba(200, 230, 252, 0.25) 35%, transparent 65%), #F8F9FB;
+  --brand-gradient-corners: radial-gradient(ellipse at 90% 5%, rgba(165, 210, 245, 0.45) 0%, transparent 50%), radial-gradient(ellipse at 5% 95%, rgba(165, 210, 245, 0.25) 0%, transparent 45%), #F8F9FB;
+}

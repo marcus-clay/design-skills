@@ -18,6 +18,7 @@ Ce dépôt réunit deux familles :
 | layers-skills | Layers of Product Design : sept couches, du comportement observé jusqu’aux décisions de surface. (9 skills) | [recommandée, par Jamie Mill](https://github.com/jamiemill/layers-skills) |
 | Karpathy guidelines | Des règles de comportement pour réduire les erreurs courantes d’un modèle qui écrit du code : réfléchir avant d’écrire, rester simple, changer peu. | [recommandée, par forrestchang](https://github.com/forrestchang/andrej-karpathy-skills) |
 | find-skills | Trouver et installer des skills depuis l’écosystème ouvert des skills pour agents. | [recommandée, par Vercel Labs](https://github.com/vercel-labs/skills) |
+| spec-ideation | Un cadre en trois phases (expansion, contraction, documentation) pour transformer une idée floue en spécification décidée. | [recommandée, par cris-achiardi](https://github.com/cris-achiardi/claude-skills) |
 
 ### Design et UX
 
@@ -33,6 +34,7 @@ Ce dépôt réunit deux familles :
 | ui-skills | Contrôles et corrections d’interface : base visuelle, accessibilité, métadonnées, performance des animations. (4 skills) | [recommandée, par ibelick](https://github.com/ibelick/ui-skills) |
 | taste-skill | Une famille de skills pour éviter l’aspect générique d’une interface générée : goût, espace, mouvement, variantes par modèle. | [recommandée, par Leonxlnx](https://github.com/Leonxlnx/taste-skill) |
 | Skills d’Anthropic | Le dépôt public de skills d’Anthropic, dont frontend-design et canvas-design. (2 skills) | [recommandée, par Anthropic](https://github.com/anthropics/skills) |
+| ux-designer | Assistance de conception UX : recherche utilisateur, wireframes, prototypes, parcours, personas, tests d’utilisabilité, architecture d’information. | [recommandée, par projet awesome-llm-apps (auteur indiqué dans le fichier de la skill)](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 
 ### Design de l’IA
 
@@ -44,7 +46,9 @@ Ce dépôt réunit deux familles :
 
 | Skill | Ce qu'elle fait | Où |
 |---|---|---|
+| `signal-research` | Veille de signaux (UI/UX, design produit, IA, outils, réglementation) puis angles de contenu calibrés sur le positionnement de chacun. | [dossier](skills/signal-research) |
 | Creative Director | Un directeur de création : génération de concepts par méthodes d’idéation, évaluation sur critères calibrés et affinage jusqu’au seuil de qualité, avec une bibliothèque de 571 campagnes primées. | [recommandée, par Serge Shima (smixs), avec Paul Deadcough](https://cd-skill.com) |
+| spec-ideation | Un cadre en trois phases (expansion, contraction, documentation) pour transformer une idée floue en spécification décidée. | [recommandée, par cris-achiardi](https://github.com/cris-achiardi/claude-skills) |
 
 ### Facilitation
 
@@ -82,12 +86,23 @@ Ce dépôt réunit deux familles :
 | `diagram-storytelling` | Zonings, wireframes, parcours et schémas minimalistes pour slides : une idée par diagramme. | [dossier](skills/diagram-storytelling) |
 | Skills d’Anthropic | Le dépôt public de skills d’Anthropic, dont frontend-design et canvas-design. (2 skills) | [recommandée, par Anthropic](https://github.com/anthropics/skills) |
 
+### Écriture et marque
+
+| Skill | Ce qu'elle fait | Où |
+|---|---|---|
+| `sober-writing` | Une posture d’écriture sobre pour tout texte lu par un tiers : faits, raisonnement visible, titres narratifs, sans les tics des modèles de langage. | [dossier](skills/sober-writing) |
+| `francais-parfait` | Les règles d’écriture en français natif : accents sur les majuscules, ligatures, guillemets, espaces insécables, style naturel. | [dossier](skills/francais-parfait) |
+| `brand-system` | Un système de marque sobre prêt à l’emploi : palette, typographie, dégradé, composants, logo, ton et structure des livrables. À combiner avec slides et pptx. S'appuie sur slides et pptx. | [dossier](skills/brand-system) |
+| `signal-research` | Veille de signaux (UI/UX, design produit, IA, outils, réglementation) puis angles de contenu calibrés sur le positionnement de chacun. | [dossier](skills/signal-research) |
+
 ### Présentations
 
 | Skill | Ce qu'elle fait | Où |
 |---|---|---|
 | `diagram-storytelling` | Zonings, wireframes, parcours et schémas minimalistes pour slides : une idée par diagramme. | [dossier](skills/diagram-storytelling) |
-| `slides` | Tokens de design, quinze mises en page et conventions narratives pour des présentations. | [dossier](skills/slides) |
+| `slides` | Tokens de design, quinze mises en page et conventions narratives pour des présentations. S'appuie sur brand-system et pptx. | [dossier](skills/slides) |
+| `brand-system` | Un système de marque sobre prêt à l’emploi : palette, typographie, dégradé, composants, logo, ton et structure des livrables. À combiner avec slides et pptx. S'appuie sur slides et pptx. | [dossier](skills/brand-system) |
+| pptx | La génération technique de présentations PowerPoint : slides, sections, tableaux, export en fichier .pptx. | [recommandée, par Anthropic](https://github.com/anthropics/skills) |
 <!-- index:end -->
 
 ## Skills recommandées : source et installation
@@ -220,6 +235,22 @@ npx skills add smixs/creative-director-skill
 ```
 
 La licence impose de citer l’auteur pour tout usage ou dérivé, bibliothèque de cas comprise. Redémarrer la session après l’installation.
+
+### pptx
+
+Par Anthropic, licence propriétaire. [Dépôt](https://github.com/anthropics/skills)
+
+Licence propriétaire : à installer depuis la source uniquement, jamais à copier ailleurs.
+
+### ux-designer
+
+Par projet awesome-llm-apps (auteur indiqué dans le fichier de la skill), licence MIT. [Dépôt](https://github.com/Shubhamsaboo/awesome-llm-apps)
+
+Le dossier exact de la skill est à retrouver dans ce dépôt.
+
+### spec-ideation
+
+Par cris-achiardi, licence MIT. [Dépôt](https://github.com/cris-achiardi/claude-skills)
 <!-- external:end -->
 
 ## Installer une skill de ce dépôt
@@ -233,6 +264,18 @@ Chaque skill a son archive dans la page [Releases](../../releases/latest). Rempl
 | **Codex** | La même archive, avec `unzip -o NOM.zip -d ~/.agents/skills` |
 
 Les outils détectent la skill sans redémarrage ; en cas de doute, taper `/skills` pour la voir dans la liste. Le [guide pas à pas de prototype-anime](https://github.com/marcus-clay/prototype-anime-skill/blob/main/GUIDE.md) détaille l'installation des trois outils, liens d'installation compris.
+
+## Créer une présentation à la charte
+
+Trois skills se combinent, chacune avec son rôle :
+
+| Skill | Rôle |
+|---|---|
+| [`brand-system`](skills/brand-system) | L'identité : palette, typographie, dégradé, composants, logo, ton. Valeurs par défaut, à remplacer par celles d'un projet |
+| [`slides`](skills/slides) | La mise en page : quinze mises en page, structure narrative, titres |
+| `pptx` | La génération du fichier `.pptx`, skill d'Anthropic à installer depuis [sa source](https://github.com/anthropics/skills) |
+
+Dans une conversation, il suffit de les activer ensemble et de demander la présentation : `brand-system` fixe l'aspect, `slides` choisit la structure, `pptx` écrit le fichier.
 
 ## Structure du dépôt
 
